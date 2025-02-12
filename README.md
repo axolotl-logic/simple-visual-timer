@@ -1,4 +1,4 @@
-# Overview [![Discord](https://img.shields.io/discord/1338638342493048844?label=Discord&logo=discord)](https://discord.gg/ewM37225Xx) [![CI/CD](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/tests.yml/badge.svg)](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/tests.yml) [![Linting](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/linting.yml/badge.svg)](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/linting.yml)
+# Overview [![Discord](https://img.shields.io/discord/1338638342493048844?label=Discord&logo=discord)](https://discord.gg/ewM37225Xx) [![CI/CD](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/tests.yml/badge.svg)](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/tests.yml)  [![Linting](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/lint.yml/badge.svg)](https://github.com/axolotl-logic/simple-visual-timer/actions/workflows/linting.yml)
 
 A simple visual timer that shows the elapsed time as a circle being filled in.
 
