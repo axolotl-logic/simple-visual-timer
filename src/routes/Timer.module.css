@@ -14,3 +14,7 @@
 .main h1 {
   font-size: var(--font-size-3xl);
 }
+
+.boring {
+  filter: invert(50%);
+}

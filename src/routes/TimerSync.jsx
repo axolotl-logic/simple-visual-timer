@@ -1,5 +1,5 @@
 // React
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 // Ours - Timer
 import { VisualTimer } from "@/features/timer";
@@ -74,8 +74,13 @@ export default function Perpetual() {
 
   const { title, segmentTranspired, segmentLength } = clockProgress;
 
+  let styleList = [
+    styles["main"],
+    ...[clockProgress.kind == "work" ? styles["boring"] : []],
+  ];
+
   return (
-    <main className={styles["main"]}>
+    <main className={styleList.join(" ")}>
       <h1>{title}</h1>
       <VisualTimer progress={segmentTranspired / segmentLength} />
       <Footer clockProgress={clockProgress} />
