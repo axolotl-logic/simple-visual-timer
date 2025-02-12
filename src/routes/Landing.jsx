@@ -13,7 +13,6 @@ import styles from "./Landing.module.css";
 
 // Ours - Hooks
 import useNotify from "@/common/hooks/useNotify";
-import { useEffect } from "react";
 
 export default function Landing() {
   const navigate = useNavigate();

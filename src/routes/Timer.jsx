@@ -7,7 +7,6 @@ import {
   getElapsed,
   VisualTimer,
   TimerControls,
-  TimeDisplay,
   useTimerDispatchContext,
   TimerActionType,
 } from "@/features/timer";
